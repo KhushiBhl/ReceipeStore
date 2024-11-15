@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-bq73u_(1#1lpg#$jzsp9wv-!7vfxs7@(jof&0=9ye^i*q(p74l
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://receipestore.onrender.com'
+    'https://receipestore.onrender.com',
+    'receipestore.onrender.com'
 ]
 
 
