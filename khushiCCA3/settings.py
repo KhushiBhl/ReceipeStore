@@ -15,7 +15,7 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-TEMP_DIR = os.path.join(BASE_DIR,"templates")
+TEMP_DIR = os.Path.join(BASE_DIR,"templates")
 
 
 # Quick-start development settings - unsuitable for production
@@ -27,7 +27,9 @@ SECRET_KEY = 'django-insecure-bq73u_(1#1lpg#$jzsp9wv-!7vfxs7@(jof&0=9ye^i*q(p74l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://receipestore.onrender.com'
+]
 
 
 # Application definition
